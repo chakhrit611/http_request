@@ -10,8 +10,13 @@ class GalleryScreen extends StatefulWidget {
 class _GalleryScreenState extends State<GalleryScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-       child: ,
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("ประวัติ"),
+      ),
+      body: Center(
+        child: Text("History screen"),
+      ),
     );
   }
 }
